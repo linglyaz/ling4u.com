@@ -228,7 +228,41 @@
                 <a href="#pricing">Pricing</a>
                 <a href="https://sites.google.com/view/ling4u/%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" target="_blank">English Level Test</a>
                 <a href="#contact">Contact</a>
-            </nav>
+                <style>
+          /* Общий стиль для кнопок */
+          .top-right-link {
+            position: absolute; /* Absolute positioning */
+            top: 10px;         /* Distance from the top of the page */
+            text-decoration: none; /* Remove underline */
+            background-color: #8cc08f; /* Add a background color */
+            color: white;      /* Text color */
+            padding: 10px 20px; /* Add some padding */
+            border-radius: 5px; /* Rounded corners */
+            font-size: 14px;    /* Font size */
+            margin-left: 10px; /* Space between buttons */
+        }
+
+        .top-right-link:hover {
+            background-color: #76a97b; /* Darker background on hover */
+            color: #fff; /* Keep text white */
+        }
+
+        /* Стиль для Login */
+        #login-link {
+            right: 120px; /* Adjust to position it next to Register */
+        }
+
+        /* Стиль для Register */
+        #register-link {
+            right: 10px; /* Position closer to the right */
+        }
+    </style>
+</head>
+<body>
+    <!-- Ссылки с уникальными ID -->
+    <a href="C:\Users\user\OneDrive\Рабочий стол\мультимедия\login.html" id="login-link" class="top-right-link">Login</a>
+    <a href="C:\Users\user\OneDrive\Рабочий стол\мультимедия\register.html" id="register-link" class="top-right-link">Register</a>
+</nav>
             <a href="#contact" class="hero-button">Get Started</a>
         </header>
       
@@ -584,21 +618,22 @@ function moveSlide(direction) {
 </style>
 </head>
 <body>
-<section id="courses">
-    <h2>Our Course:</h2>
-    <div class="course-container">
-        <!-- Текстовое описание -->
-        <div class="course-content">
-            <h3>Intermediate Level</h3>
-            <p>For learners with basic knowledge looking to improve their language skills and confidence.</p>
-            <a href="C:\Users\user\OneDrive\Рабочий стол\мультимедия\Intermediate.html" class="enroll-button">Enroll Now</a>
+    <section id="courses">
+        <h2>Our Course:</h2>
+        <div class="course-container">
+            <!-- Text Description -->
+            <div class="course-content">
+                <h3>Intermediate Level</h3>
+                <p>For learners with basic knowledge looking to improve their language skills and confidence.</p>
+                <a href="login.html" class="enroll-button">Enroll Now</a> <!-- Update this to your main page file -->
+            </div>
+    
+            <!-- Image -->
+            <img src="C:\Users\user\OneDrive\Рабочий стол\мультимедия\R.jpeg" alt="Course Image" class="course-image"> <!-- Use a relative path for the image -->
         </div>
-
-        <!-- Изображение -->
-        <img src="C:\Users\user\OneDrive\Рабочий стол\мультимедия\R.jpeg" alt="Course Image" class="course-image">
-    </div>
-</section>
-
+    </section>
+    </body>
+    
 
 
           
